@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.yellow {
+    border: solid #f1c40f 5px;
+}
+
+.orange {
+    border: solid #d35400 5px;
+}
+
+.box {
+    min-width: 500px;
+    min-height: 300px;
+}
+
+.static {
+    /* Static is the default and will stack on top of each other */
+    position: static;
+}
+
+.relative {
+    position: relative;
+    width: 500px;
+    top: -100px;
+    left: 200px;
+}
+
+.fixed {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+}
+
+.relative2 {
+    position: relative;
+}
+
+.absolute {
+    width: 200px;
+    min-height: 50px;
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
